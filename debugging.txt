@@ -45,3 +45,53 @@ PRINCIPLES OF DEBUGGING
 2.Bugs not cought early are not easy to find because the details are not in your mind
 
 
+STEPS OF DEBUGGING:
+Step1; plan your attack.
+step2;backup your files using github to keep truck of changes in my software.
+step3;isolate the block of code that could have the error.
+step4;find the actual lines of the code with errors or bugs.
+step5;fix the error don't patch it.
+step6;test the fix that you have just done
+step7;lookfor similar bugs.
+
+OTHER STEPS AND STRATEGIES
+>Reproducibility;
+The first step to fix a bug is being able to reproduce it.
+You need to understand cause and effect before you change the code.
+
+>Reduction;
+Finding the simplest test that exhibit the bug i.e reduce the search space because bugs are not random.
+They come from somewhere within the code.
+
+>Deduction;
+It comes from the word deducing.
+Understand what the program is doing
+You need to know the difference between the working input and non-working input.
+
+>Pair programming;
+Someone else may be able to see wrong assumption/mistakes that you might have made.
+The person that you are working with may not be able to understand your program very well but they understand it only when you explain to them what your code is really meaning.
+
+>Leveraging experience from others;
+Seeking solution from more experienced programmers.
+
+
+PREVENTIVE MEASURES FROM BUGS
+
+1.Write clean and easy to read code i.e  indent your code, don't repeat your code.
+2.Commenting;It helps you figure out exactly what your are trying to do with which part of your code.
+3.Make one change at atime.
+4.Test your code
+    >Unit test; Test functional blocks of your code
+    >Integration test;Testing the interaction between the functional blocks in your code
+    >The test with invalid or valid data,
+5.Defensive programming by adding error checking code and throwing exceptions.(when you enetred a string where thereis supposed to be an interger)
+6.Prioritising which features can be ommited.
+7.Incubating(taking a break,walk,music,go drink some water)
+8.Brainstorming
+
+DEBUGGING TOOLS
+1.Breakpoints
+    ->These are specific points where the program stops it's execution inorder for developers to check on the state of their code.
+    ->Befriend a print statement
+ 
