@@ -1,0 +1,47 @@
+WHAT IS DEBUGGING?
+Is the process of finding and fixing errors or bugs in your code.
+
+What is a bug?
+Is a written code which doesn't give a developer a desired output.
+is a glitch in software that prevents a program from disired output.
+Is a mistake that prevents a program from being executed properly.
+
+How do we classify bugs?
+1. Syntax errors also known as coding bugs: errors that come as a result of missuse of the language.
+e.g spelling errors, passing arguments where they are not neede.
+They occue during the process of building, normally includes missuse of funtions, variables,parameters. 
+They are underlined by IDE's
+
+2. Logical errors: Areerrors that occur when the step taken during programming doen't solve the program corectly,
+ these occur when the step taken to solve a problem is not correctly done
+The application works pefectly but does not produce the expected output
+
+3. Design bug: It's an error introduced into the system during the design process.
+
+4.Runtime errors: These occurs when the application tries to perform a program that is not allowed.
+These are normally discovered duringthe process of running the script.e.g when you divide any number by zero u get a runtime error, diving a string by an integer.
+
+DEBUGGING AND TESTING
+Testing refers to checking on the limit of your code.
+
+DEBUGGING CYCLE
+Step1: Writing the code
+step2: Check if it's working.
+Step3(dependent on step2): If it's not working then debug.
+Step4: If it's working then you are done and go back to Step1.
+
+THE BUG SEEKING CYCLE
+Step1: Writing code
+step2: Trying tobreak the code or Testing
+Step3: If you succed in breaking then debug.
+Step4:If you fail to break it then you are okay and then can go back to step one.
+
+PRINCIPLES OF DEBUGGING
+1.Catch your bug as early as possible.
+>Catch your bug early to only have one bug at a time.
+>Look whare you have been working on to find the bug.
+>Always work in small chunks of code, avoid large chunks of code.
+>If you are using githubs, make small commits.
+2.Bugs not cought early are not easy to find because the details are not in your mind
+
+
