@@ -21,4 +21,20 @@ age = input("Please enter your year of birth here: ")
 occupation = raw_input("Please enter your occupation here: ")
 
 
-paye (salary,name)    
+paye (salary,name)   
+
+
+
+
+def examp():
+    my_list = []
+    num = input("Please enter your lucky number: ")
+    my_list.append(num)
+    print(my_list)
+    for item in my_list:
+        print(item)
+     
+     
+    
+
+examp()

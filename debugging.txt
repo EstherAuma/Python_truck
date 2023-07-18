@@ -57,7 +57,7 @@ step7;lookfor similar bugs.
 OTHER STEPS AND STRATEGIES
 >Reproducibility;
 The first step to fix a bug is being able to reproduce it.
-You need to understand cause and effect before you change the code.
+You need to understand the cause and effect before you change the code.
 
 >Reduction;
 Finding the simplest test that exhibit the bug i.e reduce the search space because bugs are not random.
@@ -65,8 +65,10 @@ They come from somewhere within the code.
 
 >Deduction;
 It comes from the word deducing.
+Deduce what every line of code is doing.
 Understand what the program is doing
 You need to know the difference between the working input and non-working input.
+Reducing your problem toa particular line of code, it's done by first commenting out the parts that are correctly done so that you can remain with only the one causing the problem.
 
 >Pair programming;
 Someone else may be able to see wrong assumption/mistakes that you might have made.
